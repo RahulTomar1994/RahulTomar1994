@@ -4,7 +4,7 @@
 <classes>
 <class name = "Automation.Automation.LoginTest">
 <methods>
-<include name = "verifyLogin"></include>
+<include name = "verifyXyzBank"></include>
 </methods>
 </class>
 </classes>
