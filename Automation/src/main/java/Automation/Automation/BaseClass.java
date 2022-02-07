@@ -39,7 +39,7 @@ public class BaseClass {
 		String envFile = System.getenv().get("TEST_ENVIRONMENT");
 		System.out.println("Environemnt Value Is :"+envFile);
 		System.out.println(System.getProperty("user.dir") + File.separator + "config"+File.separator+envFile+".properties");
-		//FileInputStream fp = new FileInputStream("C:\\Users\\r.singh.tomar\\git\\automation-testframwork\\Automation\\config\\smoke.properties");
+		//FileInputStream fp = new FileInputStream("C:\\Users\\rahulsingh.tomar\\git\\automation-testframwork\\Automation\\config\\smoke.properties");
 		FileInputStream fp = new FileInputStream(System.getProperty("user.dir") + File.separator + "config"+File.separator+envFile+".properties");
 		prop.load(fp);
 	}
